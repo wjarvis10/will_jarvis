@@ -1,0 +1,42 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+#header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+
+#headerButtons {
+  display: flex;
+  flex-direction: row;
+}
+
+.navButton {
+  padding: 1rem;
+  border: transparent;
+  background-color: transparent;
+  font-size: 1.65rem;
+  font-family: Inter-Black,Helvetica Neue,arial,sans-serif;
+  font-weight: 800;
+}
+
+.navButton2 {
+  padding: 1rem 1rem 1rem 0rem;
+  border: transparent;
+  background-color: transparent;
+  font-size: 1.65rem;
+  font-family: Inter-Black,Helvetica Neue,arial,sans-serif;
+  font-weight: 800;
+}

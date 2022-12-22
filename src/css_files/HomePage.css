@@ -1,0 +1,142 @@
+@import url('https://fonts.cdnfonts.com/css/tactico');
+
+#mainFrame {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 15%;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+#hello {
+    font-family: Inter-Black,Helvetica Neue,arial,sans-serif;
+    font-size: 6rem;
+    font-weight: 800;
+    color: #1a1e23;
+    margin-bottom: 2rem;
+}
+
+#blurb {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40rem;
+    height: fit-content
+}
+.blurbText {
+    font-size: 28px;
+    font-family: Calluna,Georgia,serif;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0rem 0rem 0.75rem 0rem;
+    font-weight: 200;
+    color: #1a1e23;
+}
+
+a {
+    color: #1d78bd;
+    text-decoration: none;
+    border-bottom-width: 0px;
+    border-bottom-style: none;
+    border-bottom-color: #1d78bd;
+}
+
+#introButton {
+    padding: 0.8rem 1.4rem 0.8rem 0rem;
+    border: 0.2rem transparent;
+    text-decoration: none;
+    background:transparent;
+    font-family: Inter-Black,Helvetica Neue,arial,sans-serif;
+    font-size: 1.55rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #8f9599;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: black;
+    padding-left: 2.5%;
+    margin: 2rem 2rem 2rem 0rem;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f9fb;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 3rem;
+}
+
+#aboutMe {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+
+#aboutMeBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#aboutMeContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#aboutMeInfo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 60rem;
+    margin-left: 1rem;
+}
+#aboutMeText{
+    font-size: 2.5rem;
+    font-family: Inter-Black,Helvetica Neue,arial,sans-serif;
+    font-weight: 600;
+    line-height: 2.75rem;
+    text-align:left;
+    color: #1a1e23;
+    padding: 5rem 15% 1rem 15%;
+    margin: 0;
+}
+#aboutMeText2 {
+    font-size: 2rem;
+    font-family: Calluna,Georgia,serif;
+    font-weight: 200;
+    line-height: 2.75rem;
+    color: #1a1e23;
+    text-align:left;
+    padding: 1rem 0% 5rem 15%;
+    margin: 0;
+}
+
+#aboutMeImg {
+    width: 30rem;
+    height: fit-content;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f9fb;
+    height: 25rem;
+}
+
+#contactInfo {
+    padding-left: 2.5%
+}
